@@ -10,6 +10,7 @@ function MeetupList(props) {
           id={meetup.meetingId}
           image={meetup.image}
           title={meetup.title}
+          trailer={meetup.trailer}
           address={meetup.address}
         />
       ))}

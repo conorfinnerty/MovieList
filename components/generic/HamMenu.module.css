@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 2px solid #444d44;
+  border: 2px solid #cc231d;
   border-radius: 50%;
   height: 30px;
   transition: background-color 0.4s;
@@ -12,12 +12,13 @@
 
 .mainSpan {
   background: transparent;
-  color: #ffffff;
+  color: #961a1a;
   text-align: center;
   font-size: 36px;
+
 }
 
 .mainDiv:hover {
-  background-color: #444d44;
-  border: 2px solid #777777;
+  background-color: #c77070;
+  border: 2px solid #be1e1e;
 }

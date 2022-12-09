@@ -1,5 +1,12 @@
 .form {
   padding: 1rem;
+  width: 30%;
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  background-color: gray;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .control {
@@ -40,6 +47,27 @@
 
 .actions button:hover,
 .actions button:active {
+  background-color: #a50e48;
+  border-color: #a50e48;
+}
+
+.favourites {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.favourites button {
+  font: inherit;
+  cursor: pointer;
+  background-color:  #1a2920;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #77002e;
+  border-radius: 4px;
+}
+
+.favourites button:hover,
+.favourites button:active {
   background-color: #a50e48;
   border-color: #a50e48;
 }
